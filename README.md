@@ -40,3 +40,4 @@ This is a boilerplate Rails project that uses:
 * `heroku buildpacks:add --index 1 heroku/nodejs`
 * `git push heroku master`
 * `heroku run rails db:migrate`
+# GoHykr
