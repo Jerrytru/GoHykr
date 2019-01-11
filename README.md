@@ -41,3 +41,4 @@ This is a boilerplate Rails project that uses:
 * `git push heroku master`
 * `heroku run rails db:migrate`
 # GoHykr
+# GoHykr
