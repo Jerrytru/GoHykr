@@ -4,7 +4,7 @@ class AttendeesController < ApplicationController
     attendee = itinerary.attendees.build(user: current_user)
     if attendee.save
       avail_seats = itinerary.available_seat - 1
-      itinerary.update_column(:available_seat, avail_seats)
+      itinerary.update(available_seat: avail_seats)
     end
     redirect_to itinerary_path(itinerary)
   end
